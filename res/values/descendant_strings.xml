@@ -16,6 +16,10 @@
     <!-- POSP version in About phone -->
     <string name="descendant_version_title">Descendant version</string>
 
+    <!-- Fluid Settings -->
+    <string name="fluid_customisation_title">The Lab</string>
+    <string name="fluid_customisation_summary">Caution, derps ahead.</string>
+
     <!-- Build types, now with translations -->
     <string name="build_type">Build Type</string>
     <string name="descendant_official">Official</string>

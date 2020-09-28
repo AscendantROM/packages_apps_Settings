@@ -47,6 +47,7 @@ import com.android.settings.system.SystemDashboardFragment;
 import com.android.settingslib.drawer.CategoryKey;
 
 import org.descendant.health.DescendantHealth;
+import com.fluid.customisation.FluidCustomisation;
 
 import java.util.Map;
 
@@ -123,6 +124,8 @@ public class DashboardFragmentRegistry {
                 CategoryKey.CATEGORY_SMART_BATTERY_SETTINGS);
         PARENT_TO_CATEGORY_KEY_MAP.put(DescendantHealth.class.getName(),
                 CategoryKey.CATEGORY_DESCENDANT_HEALTH);
+        PARENT_TO_CATEGORY_KEY_MAP.put(FluidCustomisation.class.getName(),
+                CategoryKey.CATEGORY_SYSTEM_DEVELOPMENT);
 
         CATEGORY_KEY_TO_PARENT_MAP = new ArrayMap<>(PARENT_TO_CATEGORY_KEY_MAP.size());
 

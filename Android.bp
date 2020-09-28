@@ -28,11 +28,15 @@ android_library {
     ],
 
     srcs: ["src/**/*.java",
-        "DescendantHealth/src/**/*.java"],
+        "DescendantHealth/src/**/*.java",
+        "src_customisation/**/*.java"],
 
-    aaptflags: ["--extra-packages org.descendant.health"],
+    aaptflags: ["--extra-packages org.descendant.health",
+                "--extra-packages com.fluid.customisation"
+    ],
 
     resource_dirs: ["res",
+                    "res-customisation",
                     "DescendantHealth/res"
     ],
 
@@ -95,7 +99,6 @@ android_app {
         "settings-platform-compat-config",
     ],
     static_libs: ["Settings-core"],
-    resource_dirs: [],
     optimize: {
         proguard_flags_files: ["proguard.flags"],
     },

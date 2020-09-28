@@ -161,6 +161,7 @@ import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSetting
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import org.descendant.health.DescendantHealth;
+import com.fluid.customisation.FluidCustomisation;
 
 public class SettingsGateway {
 
@@ -310,7 +311,9 @@ public class SettingsGateway {
             InteractAcrossProfilesSettings.class.getName(),
             InteractAcrossProfilesDetails.class.getName(),
             MediaControlsSettings.class.getName(),
-            DescendantHealth.class.getName()
+            DescendantHealth.class.getName(),
+            FluidCustomisation.class.getName()
+
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -351,5 +354,6 @@ public class SettingsGateway {
             Settings.ModuleLicensesActivity.class.getName(),
             UserBackupSettingsActivity.class.getName(),
             Settings.DescendantHealthActivity.class.getName(),
+            Settings.FluidCustomisationActivity.class.getName(),
     };
 }

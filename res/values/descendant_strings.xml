@@ -14,7 +14,7 @@
 
     <string name="ambient_display_custom">Ambient Display and Sensors</string>
     <!-- POSP version in About phone -->
-    <string name="descendant_version_title">Descendant version</string>
+    <string name="descendant_version_title">Ascendant version</string>
 
     <!-- Fluid Settings -->
     <string name="fluid_customisation_title">The Lab</string>
@@ -24,7 +24,6 @@
     <string name="build_type">Build Type</string>
     <string name="descendant_official">Official</string>
     <string name="descendant_unofficial">Unofficial</string>
-    <string name="descendant_mashed">Mashed</string>
 
     <!-- Device Model -->
     <string name="descendant_device_model">Device Model</string>
@@ -55,9 +54,9 @@
     <string name="expand_immediately_summary">Show an extra button in volume panel that will let you expand it to multirows directly, without having to interact with the half-hidden bar</string>
 
     <!-- Descendant Guardia-->
-    <string name="descendant_guardia_pc">Descendant Guardia</string>
-    <string name="descendant_guardia_enable">Enable Descendant Guardia</string>
-    <string name="descendant_guardia_enable_summary">Enabling Descendant Guardia will help you being aware about when your apps request permissions even in background</string>
+    <string name="descendant_guardia_pc">Guardia</string>
+    <string name="descendant_guardia_enable">Enable Guardia</string>
+    <string name="descendant_guardia_enable_summary">Enabling Guardia will help you being aware about when your apps request permissions even in background</string>
     <string name="descendant_guardia_exclude_gapps">Whitelist Google Apps</string>
     <string name="descendant_guardia_exclude_gapps_summary">With this feature enabled you won\'t get any notifications if a Google App requests permissions</string>
     <string name="descendant_guardia_exclude_system_apps">Whitelist System Apps</string>
@@ -79,12 +78,12 @@
     <string name="descendant_guardia_is_clipboard_write_alert_summary">Show alerts when clipboard write permission gets used</string>
     <string name="descendant_guardia_notif_type_title">Use notifications instead of toasts</string>
     <string name="descendant_guardia_notif_type_summary">Enabling this option, notification will replace toast when there\'s a permission usage to be signaled</string>
-    <string name="descendant_guardia_description">Descendant Guardia is your Privacy Guardian that will help you understand what your applications do in real-time with the permissions you gave them</string>
+    <string name="descendant_guardia_description">Guardia is your Privacy Guardian that will help you understand what your applications do in real-time with the permissions you gave them</string>
     <string name="help_url_descendant_guardia"></string>
     <string name="descendant_guardia_whitelists">Whitelists</string>
     <string name="descendant_guardia_notifications_title">Notification type</string>
     <string name="descendant_guardia_alert_options">Alert types</string>
-    <string name="descendant_guardia_frag_title">Descendant Guardia</string>
+    <string name="descendant_guardia_frag_title">Guardia</string>
     <string name="descendant_guardia_frag_summary">Your Privacy Guardian to raise awareness of what\'s happening on your device</string>
 
     <!-- Privacy Services -->
@@ -94,9 +93,9 @@
     <!-- Descendant about phone -->
     <string name="descendant_support">Do you need support?</string>
     <string name="descendant_support_summary">Tap here to join the official Telegram support group</string>
-    <string name="descendant_website">https://bit.ly/descendant_blog</string>
-    <string name="descendant_support_website">https://bit.ly/descendant_tg</string>
-    <string name="descendant_version">Descendant version</string>
+    <string name="descendant_website">https://www.youtube.com/watch?v=dQw4w9WgXcQ</string>
+    <string name="descendant_support_website">https://t.me/Ascendant_Device_Support</string>
+    <string name="descendant_version">Ascendant version</string>
     <string name="descendant_version_default">Unknown</string>
 
     <!-- Thumb UI -->
@@ -104,15 +103,15 @@
     <string name="thumb_ui_summary">This toggle will enable Thumb UI. \nAn interface that will suit your usage with one hand.</string>
 
     <!-- Descendant Storage Manager -->
-    <string name="descendant_storage_manager_title">Descendant Storage Manager</string>
+    <string name="descendant_storage_manager_title">Storage Manager</string>
     <string name="descendant_storage_manager_summary">This manager will self-handle the junk your apps may generate.\nIt can coexhist with Android\'s default manager.</string>
 
     <!-- Descendant Health Manager -->
-    <string name="descendant_health_manager_title">Descendant Health Manager</string>
+    <string name="descendant_health_manager_title">Health Manager</string>
     <string name="descendant_health_manager_summary">This manager helps out users to figure out when and how to avoid their smartphone to interfere with their health</string>
 
     <!-- Descendant Idle Manager -->
-    <string name="descendant_idle_manager_title">Descendant Idle Manager</string>
+    <string name="descendant_idle_manager_title">Idle Manager</string>
     <string name="descendant_idle_manager_summary">Descendant\'s algorithm to ensure efficiency (recommended on)</string>
 
     <!-- Don't touch notification -->
@@ -126,12 +125,12 @@
     <string name="reticker_colored_summary">Replace reTicker background color using notification app main color</string>
 
     <!-- Descendant Clock Flow -->
-    <string name="descendant_clock_flow_category_title">Descendant Clock Flow</string>
+    <string name="descendant_clock_flow_category_title">Clock Flow</string>
     <string name="descendant_clock_flow_title">Enable Clock Flow</string>
-    <string name="descendant_clock_flow_summary">Enabling Descendant Clock Flow will provide a new way to discretely see which app you\'ve received a notification from, on lockscreen and ambient notifications</string>
-    <string name="descendant_clock_flow_selection">Select Descendant Clock Flow style</string>
+    <string name="descendant_clock_flow_summary">Enabling Clock Flow will provide a new way to discretely see which app you\'ve received a notification from, on lockscreen and ambient notifications</string>
+    <string name="descendant_clock_flow_selection">Select Clock Flow style</string>
     <!-- Descendant Clock Flow Selector -->
-    <string name="descendant_clock_flow_selector_title">Descendant Clock Flow Themes</string>
+    <string name="descendant_clock_flow_selector_title">Clock Flow Themes</string>
     <string name="descendant_clock_flow_selector_default">Default</string>
     <string name="descendant_clock_flow_selector_descendant">Descendant</string>
     <string name="descendant_clock_flow_selector_swan">Swan</string>
@@ -184,7 +183,7 @@
      <string name="weather_metrics_fahrenheit">°F</string>
 
      <!-- Descendant Health Dashboard-->
-     <string name="descendant_health_dashboard_title">Descendant Health</string>
+     <string name="descendant_health_dashboard_title">Health</string>
      <string name="descendant_health_dashboard_summary">COVID-19 data, sleep helper, eyes protector</string>
 
      <!-- Traffic monitor -->

@@ -3,4 +3,7 @@
     <color name="dashboard_background_color">#f2f2f2</color>
     <color name ="homepage_health_background">#FFFF2800</color>
     <color name="desaturize_dashboard_color">#ccffffff</color>
+
+    <!-- FluidCustomisation homepage icon -->
+    <color name="homepage_fluidcustomisation_background">#b19cd9</color>
 </resources>
